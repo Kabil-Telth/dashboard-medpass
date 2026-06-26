@@ -1,8 +1,8 @@
 // Central config for the single-admin auth system and backend connection.
 // These can be overridden with environment variables in production.
 
-export const ADMIN_USERNAME = process.env.ADMIN_USERNAME ?? "admin@medpass"
-export const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD ?? "Admin123@456"
+export const ADMIN_USERNAME = process.env.ADMIN_USERNAME 
+export const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD 
 
 // Secret used to sign the session cookie. Override in production via env.
 export const SESSION_SECRET =
